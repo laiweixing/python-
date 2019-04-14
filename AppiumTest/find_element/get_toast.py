@@ -16,5 +16,9 @@ limit_message = "验证失败次数过多，请15分钟后再试"
 message = "//*[@text='{}']".format(error_message)
 # message = "//*[@text='{}']".format(limit_message)
 
-toast_element = WebDriverWait(driver,5).until(lambda x:x.find_element_by_xpath(message))
+toast_element = WebDriverWait(driver, 5).until(lambda x: x.find_element_by_xpath(message))
+
 print(toast_element.text)
+
+if __name__ == '__main__':
+    print("ok")
