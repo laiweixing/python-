@@ -3,10 +3,11 @@
 
 from appium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from log.loger import logging
+from logs.loger import logging
 import yaml
+from os import path
 
-yaml_name = "./yaml/kyb.yaml"
+yaml_name = "./config/kyb_caps.yaml"
 file = open(yaml_name, 'r')
 data = yaml.load(file)
 
@@ -16,7 +17,10 @@ desired_caps['platforVersion'] = data['platforVersion']
 desired_caps['deviceName'] = data['deviceName']
 # desired_caps['automationName'] = data['automationName']         # toast获取提示时需要打开
 
-desired_caps['app'] = data['app']
+base_dir = path.dirname(path.dirname(__file__))
+app_path = path.join(base_dir, 'app', data['appName'])
+desired_caps['app'] = app_path
+
 desired_caps['appPackage'] = data['appPackage']
 desired_caps['appActivity'] = data['appActivity']
 

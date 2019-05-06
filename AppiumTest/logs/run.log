@@ -283,3 +283,8 @@
 2019-05-05 16:52:43,875 - common_fun.py[line:36] - INFO - no skipBtn
 2019-05-05 16:52:43,878 - loginView.py[line:24] - INFO - ======login_action======
 2019-05-05 16:52:43,881 - loginView.py[line:25] - INFO - username is:bryce123
+2019-05-06 15:23:45,088 - capability.py[line:33] - INFO - ------开始启动APP------
+2019-05-06 15:24:02,380 - capability.py[line:36] - INFO - ------启动APP成功------
+2019-05-06 15:24:02,381 - capability.py[line:40] - INFO - check cancelBtn
+2019-05-06 15:24:32,832 - capability.py[line:44] - INFO - no cancelBtn
+2019-05-06 15:24:32,833 - capability.py[line:50] - INFO - check skipBtn
