@@ -1,0 +1,8 @@
+ipType: 1 #测试环境 1：测试服 2：正式服
+encryption: MD5 # 加密方式
+url: https://thirty-eight.e-stronger.com/apps/index.php? # 38所共享单车
+# Url: https://bed-api.e-stronger.com/index.php? # 广正陪护床
+code: errorCode
+desc: msg
+data: data
+code_value: 1
