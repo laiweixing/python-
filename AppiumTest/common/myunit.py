@@ -2,9 +2,10 @@
 # -*- coding:utf-8 -*-
 
 import unittest
+from time import sleep
+
 from common.desired_caps import appium_desired
 from logs.loger import logging
-from time import sleep
 
 
 class startEnd(unittest.TestCase):

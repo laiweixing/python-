@@ -5,43 +5,62 @@
 封装一些公共类
 """
 
+import os
+import time
+
 from baseView.baseView import BaseView
 from common.desired_caps import appium_desired
-from selenium.common.exceptions import NoSuchElementException
 from logs.loger import logging
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
-import time
-import os
 
 
 class Common(BaseView):
 
     cancelBtn = (By.ID, 'android:id/button2')
     skipBtn = (By.ID, 'com.tal.kaoyan:id/tv_skip')
+    wemedia_cancle = (By.ID, 'com.tal.kaoyan:id/view_wemedia_cancel')
 
+    # 检测启动页跳过按钮
     def check_cancelBtn(self):
-        logging.info("check cancelBtn")
+        logging.info("======check cancelBtn======")
         try:
-            cancelBtn = self.driver.find_element(*self.cancelBtn)
+            element = self.driver.find_element(*self.cancelBtn)
         except NoSuchElementException:
-            logging.info("no cancelBtn")
+            logging.info("======no cancelBtn======")
         else:
-            cancelBtn.click()
+            logging.info("======close cancelBtn======")
+            element.click()
 
+    # 检测升级弹窗
     def check_skipBtn(self):
-        logging.info("check skipBtn")
+        logging.info("======check skipBtn======")
         try:
-            skipBtn = self.driver.find_element(*self.skipBtn)
+            element = self.driver.find_element(*self.skipBtn)
         except NoSuchElementException:
-            logging.info("no skipBtn")
+            logging.info("======no skipBtn======")
         else:
-            skipBtn.click()
+            logging.info("======close skipBtn======")
+            element.click()
 
+    # 检测广告弹窗
+    def check_market_ad(self):
+        logging.info("======check market_ad======")
+        try:
+            element = self.driver.find_element(*self.wemedia_cancle)
+        except NoSuchElementException:
+            logging.info("======no market_ad======")
+        else:
+            logging.info("======close market_ad======")
+            element.click()
+
+    # 获取屏幕尺寸
     def get_size(self):
         x = self.driver.get_window_size()['width']
         y = self.driver.get_window_size()['height']
         return x, y
 
+    # 向左滑动
     def swipeLeft(self):
         logging.info('======swipe_left======')
         lt = self.get_size()
@@ -50,10 +69,12 @@ class Common(BaseView):
         x2 = int(lt[0] * 0.1)
         self.swipe(x1, y1, x2, y1, 2000)
 
+    # 获取当前时间
     def getTime(self):
         self.now = time.strftime("%Y-%m-%d %H-%M-%S")
         return self.now
 
+    # 截图
     def getScreenShot(self, module):
         time = self.getTime()
         image_file = os.path.dirname(os.path.dirname(__file__)) + '/screenshots/%s_%s.png' % (module, time)

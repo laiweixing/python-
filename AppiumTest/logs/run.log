@@ -288,3 +288,111 @@
 2019-05-06 15:24:02,381 - capability.py[line:40] - INFO - check cancelBtn
 2019-05-06 15:24:32,832 - capability.py[line:44] - INFO - no cancelBtn
 2019-05-06 15:24:32,833 - capability.py[line:50] - INFO - check skipBtn
+2019-05-07 14:55:33,473 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 14:55:44,487 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 14:55:44,488 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 14:56:04,549 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 14:56:04,550 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 14:56:04,573 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 14:56:04,847 - loginView.py[line:31] - INFO - ======login_action======
+2019-05-07 14:56:04,849 - loginView.py[line:32] - INFO - username is:bryce123
+2019-05-07 14:56:10,109 - loginView.py[line:35] - INFO - password is:74505208vv
+2019-05-07 14:56:15,273 - loginView.py[line:38] - INFO - click loginBtn
+2019-05-07 14:56:15,911 - loginView.py[line:40] - INFO - login finished
+2019-05-07 14:56:15,912 - loginView.py[line:55] - INFO - ======check_loginStatus======
+2019-05-07 14:56:15,913 - common_fun.py[line:47] - INFO - ======check market_ad======
+2019-05-07 14:56:36,385 - common_fun.py[line:51] - INFO - ======no market_ad======
+2019-05-07 14:56:36,386 - loginView.py[line:44] - INFO - ======check account_alert======
+2019-05-07 14:56:57,671 - loginView.py[line:48] - INFO - ======no markeaccount_alertt_ad======
+2019-05-07 14:57:18,282 - loginView.py[line:63] - ERROR - login Fail!
+2019-05-07 14:57:18,283 - common_fun.py[line:81] - INFO - get login fail screenshot
+2019-05-07 15:02:50,646 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 15:02:59,860 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 15:02:59,862 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 15:03:19,876 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 15:03:19,877 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 15:03:19,899 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 15:03:21,072 - loginView.py[line:31] - INFO - ======login_action======
+2019-05-07 15:03:21,073 - loginView.py[line:32] - INFO - username is:bryce123
+2019-05-07 15:03:26,325 - loginView.py[line:35] - INFO - password is:74505208vv
+2019-05-07 15:03:31,467 - loginView.py[line:38] - INFO - click loginBtn
+2019-05-07 15:03:32,219 - loginView.py[line:40] - INFO - login finished
+2019-05-07 15:03:32,220 - loginView.py[line:55] - INFO - ======check_loginStatus======
+2019-05-07 15:03:32,221 - common_fun.py[line:47] - INFO - ======check market_ad======
+2019-05-07 15:03:52,458 - common_fun.py[line:51] - INFO - ======no market_ad======
+2019-05-07 15:03:52,459 - loginView.py[line:44] - INFO - ======check account_alert======
+2019-05-07 15:04:13,874 - loginView.py[line:48] - INFO - ======no markeaccount_alertt_ad======
+2019-05-07 15:04:15,938 - loginView.py[line:67] - INFO - login success!
+2019-05-07 15:04:15,938 - loginView.py[line:73] - INFO - ======logout_action======
+2019-05-07 16:22:45,443 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:22:53,892 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 16:22:53,893 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 16:23:11,568 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:23:17,154 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:23:27,142 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 16:23:27,143 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 16:23:47,611 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 16:23:47,612 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 16:23:47,627 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 16:23:48,868 - registerView.py[line:37] - INFO - ======register_action======
+2019-05-07 16:23:50,632 - registerView.py[line:41] - INFO - ======set userheader======
+2019-05-07 16:26:07,536 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:26:17,431 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 16:26:17,432 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 16:26:37,474 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 16:26:37,475 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 16:26:37,490 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 16:26:38,740 - registerView.py[line:37] - INFO - ======register_action======
+2019-05-07 16:26:40,593 - registerView.py[line:41] - INFO - ======set userheader======
+2019-05-07 16:37:16,851 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:37:25,054 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 16:37:25,055 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 16:37:45,568 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 16:37:45,569 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 16:37:45,583 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 16:37:46,893 - registerView.py[line:37] - INFO - ======register_action======
+2019-05-07 16:37:48,895 - registerView.py[line:41] - INFO - ======set userheader======
+2019-05-07 16:39:30,923 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:39:38,437 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 16:39:38,439 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 16:39:58,687 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 16:39:58,688 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 16:39:58,702 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 16:39:59,883 - registerView.py[line:37] - INFO - ======register_action======
+2019-05-07 16:40:01,918 - registerView.py[line:41] - INFO - ======set userheader======
+2019-05-07 16:40:58,047 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:42:07,914 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 16:42:07,916 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 16:42:27,977 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 16:42:27,978 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 16:42:27,996 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 16:42:28,616 - registerView.py[line:37] - INFO - ======register_action======
+2019-05-07 16:42:33,405 - registerView.py[line:41] - INFO - ======set userheader======
+2019-05-07 16:42:34,380 - registerView.py[line:45] - INFO - username is brycelwx31164
+2019-05-07 16:50:05,473 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 16:50:15,276 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 16:50:15,277 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 16:50:25,555 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 16:50:25,557 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 16:50:25,576 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 16:50:26,558 - registerView.py[line:38] - INFO - ======register_action======
+2019-05-07 16:50:31,160 - registerView.py[line:42] - INFO - ======set userheader======
+2019-05-07 16:50:32,812 - registerView.py[line:47] - INFO - username is brycelwx76181
+2019-05-07 16:50:38,543 - registerView.py[line:50] - INFO - username is 74505208vv
+2019-05-07 16:50:43,890 - registerView.py[line:53] - INFO - username is jackbryce38402@163.com
+2019-05-07 17:00:15,236 - desired_caps.py[line:45] - INFO - ------开始启动APP------
+2019-05-07 17:00:22,877 - desired_caps.py[line:48] - INFO - ------启动APP成功------
+2019-05-07 17:00:22,879 - common_fun.py[line:25] - INFO - ======check cancelBtn======
+2019-05-07 17:00:33,008 - common_fun.py[line:29] - INFO - ======no cancelBtn======
+2019-05-07 17:00:33,009 - common_fun.py[line:36] - INFO - ======check skipBtn======
+2019-05-07 17:00:33,022 - common_fun.py[line:42] - INFO - ======close skipBtn======
+2019-05-07 17:00:33,696 - registerView.py[line:38] - INFO - ======register_action======
+2019-05-07 17:00:35,517 - registerView.py[line:42] - INFO - ======set userheader======
+2019-05-07 17:00:37,821 - registerView.py[line:47] - INFO - register_username is brycelwx54390
+2019-05-07 17:00:43,136 - registerView.py[line:50] - INFO - register_password is 74505208vv
+2019-05-07 17:00:48,350 - registerView.py[line:53] - INFO - register_email is jackbryce16999@163.com
+2019-05-07 17:00:54,309 - registerView.py[line:60] - INFO - ======check_register_status======
+2019-05-07 17:00:54,310 - common_fun.py[line:47] - INFO - ======check market_ad======
+2019-05-07 17:01:04,450 - common_fun.py[line:51] - INFO - ======no market_ad======
+2019-05-07 17:01:14,914 - registerView.py[line:67] - ERROR - register fail!
+2019-05-07 17:01:14,915 - common_fun.py[line:81] - INFO - get register fail screenshot

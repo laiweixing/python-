@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
-from appium import webdriver
-from selenium.common.exceptions import NoSuchElementException
-from logs.loger import logging
-import yaml
 from os import path
+
+import yaml
+from appium import webdriver
+
+from logs.loger import logging
+from selenium.common.exceptions import NoSuchElementException
 
 yaml_name = "./config/kyb_caps.yaml"
 file = open(yaml_name, 'r')

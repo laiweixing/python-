@@ -5,10 +5,11 @@
 登录页面自动化测试脚本
 """
 
-from test_case.myunit import startEnd
-from page_object.loginView import LoginView
-from logs.loger import logging
 import unittest
+
+from logs.loger import logging
+from page_object.loginView import LoginView
+from common.myunit import startEnd
 
 
 class TestLogin(startEnd):

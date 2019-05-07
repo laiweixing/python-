@@ -5,11 +5,12 @@
 APP启动配置
 """
 
-from appium import webdriver
-import yaml
 import logging
 import logging.config
 from os import path
+
+import yaml
+from appium import webdriver
 
 CON_LOG = './config/log.conf'
 log_file_path = path.abspath(path.join(path.abspath('.'), CON_LOG))
@@ -44,7 +45,7 @@ def appium_desired():
 
     logging.info("------开始启动APP------")
     driver = webdriver.Remote('http://' + str(data['ip']) + ':' + str(data['port']) + '/wd/hub', desired_caps)
-    driver.implicitly_wait(20)      # 隐式等待
+    driver.implicitly_wait(10)      # 隐式等待
     logging.info("------启动APP成功------")
     return driver
 
