@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
+import logging
 from os import path
 
 import yaml
 from appium import webdriver
 
-from logs.loger import logging
 from selenium.common.exceptions import NoSuchElementException
 
-yaml_name = "./config/kyb_caps.yaml"
+yaml_name = "../config/kyb_caps.yaml"
 file = open(yaml_name, 'r')
 data = yaml.load(file)
 
@@ -32,7 +32,7 @@ desired_caps['noSign'] = data['noSign']     # 再次签名
 desired_caps['unicodeKeyboard'] = data['unicodeKeyboard']
 desired_caps['resetKeyboard'] = data['resetKeyboard']
 
-logging.info("------开始启动APP------")
+logging.info("------启动APP中------")
 driver = webdriver.Remote('http://' + str(data['ip']) + ':' + str(data['port']) + '/wd/hub', desired_caps)
 driver.implicitly_wait(30)      # 隐式等待
 logging.info("------启动APP成功------")

@@ -5,9 +5,10 @@
 登录模块封装
 """
 
+import logging
+
 from common.common_fun import Common
 from common.desired_caps import appium_desired
-from logs.loger import logging
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 

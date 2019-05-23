@@ -2,27 +2,35 @@
 # -*- coding:utf-8 -*-
 
 """
-登录页面自动化测试脚本
+登录功能测试
 """
 
+import logging
 import unittest
 
-from logs.loger import logging
-from page_object.loginView import LoginView
+from businessView.loginView import LoginView
 from common.myunit import startEnd
 
 
 class TestLogin(startEnd):
 
+    csv_file = '../data/data.csv'
+
     def test_login_right(self):
-        logging.info('======测试正确登录======')
-        login = LoginView(self.driver)
-        login.login_action('bryce123', '74505208vv')
+        logging.info('======测试正常登录======')
+        lg = LoginView(self.driver)
+        data = lg.get_csv_data(self.csv_file, 2)
+
+        lg.login_action(data[0], data[1])
+        self.assertTrue(lg.check_login_status())
 
     def test_login_error(self):
         logging.info('======测试密码错误登录======')
-        login = LoginView(self.driver)
-        login.login_action('bryce123', '74505208')
+        lg = LoginView(self.driver)
+        data = lg.get_csv_data(self.csv_file, 1)
+
+        lg.login_action(data[0], data[1])
+        self.assertFalse(lg.check_login_status())
 
 
 if __name__ == '__main__':

@@ -12,14 +12,14 @@ from os import path
 import yaml
 from appium import webdriver
 
-CON_LOG = './config/log.conf'
+CON_LOG = '../config/log.conf'
 log_file_path = path.abspath(path.join(path.abspath('.'), CON_LOG))
 logging.config.fileConfig(log_file_path)
 logging = logging.getLogger()
 
 
 def appium_desired():
-    yaml_file = "./config/kyb_caps.yaml"
+    yaml_file = "../config/kyb_caps.yaml"
     with open(yaml_file, 'r', encoding='utf-8') as file:
         data = yaml.load(file)
 

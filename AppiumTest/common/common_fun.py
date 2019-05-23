@@ -5,12 +5,13 @@
 封装一些公共类
 """
 
+import csv
+import logging
 import os
 import time
 
 from baseView.baseView import BaseView
 from common.desired_caps import appium_desired
-from logs.loger import logging
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
@@ -81,6 +82,15 @@ class Common(BaseView):
 
         logging.info('get %s screenshot' % module)
         self.driver.get_screenshot_as_file(image_file)
+
+    # 获取csv文件中的数据
+    def get_csv_data(self, csv_file, line):
+        logging.info("======get_csv_data=======")
+        with open(csv_file, 'r', encoding='utf-8-sig') as file:
+            reader = csv.reader(file)
+            for index, row in enumerate(reader, 1):
+                if index == line:
+                    return row
 
 
 if __name__ == '__main__':
