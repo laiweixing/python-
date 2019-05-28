@@ -1,195 +1,101 @@
-2019-05-08 16:45:20,414 - run_test.py[line:28] - INFO - 开始跑测试用例
-2019-05-08 16:45:20,416 - myunit.py[line:14] - INFO - ======启动APP======
-2019-05-08 16:45:20,444 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-08 16:45:28,347 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-08 16:45:28,348 - test_login.py[line:28] - INFO - ======测试密码错误登录======
-2019-05-08 16:45:28,349 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-08 16:45:28,356 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-08 16:45:38,640 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-08 16:45:38,641 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-08 16:45:38,657 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-08 16:45:39,258 - loginView.py[line:35] - INFO - ======login_action======
-2019-05-08 16:45:39,259 - loginView.py[line:36] - INFO - username is:1
-2019-05-08 16:45:44,509 - loginView.py[line:39] - INFO - password is: 2
-2019-05-08 16:45:49,811 - loginView.py[line:42] - INFO - click loginBtn
-2019-05-08 16:45:50,534 - loginView.py[line:44] - INFO - login finished
-2019-05-08 16:45:50,535 - loginView.py[line:59] - INFO - ======check_login_status======
-2019-05-08 16:45:50,536 - common_fun.py[line:49] - INFO - ======check market_ad======
-2019-05-08 16:46:00,648 - common_fun.py[line:53] - INFO - ======no market_ad======
-2019-05-08 16:46:00,649 - loginView.py[line:48] - INFO - ======check account_alert======
-2019-05-08 16:46:10,696 - loginView.py[line:52] - INFO - ======no markeaccount_alertt_ad======
-2019-05-08 16:46:20,829 - loginView.py[line:67] - ERROR - login Fail!
-2019-05-08 16:46:20,831 - common_fun.py[line:83] - INFO - get login fail screenshot
-2019-05-08 16:46:21,122 - myunit.py[line:18] - INFO - ======关闭APP======
-2019-05-08 16:46:31,791 - myunit.py[line:14] - INFO - ======启动APP======
-2019-05-08 16:46:31,817 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-08 16:46:40,810 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-08 16:46:40,812 - test_login.py[line:20] - INFO - ======测试正常登录======
-2019-05-08 16:46:40,813 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-08 16:46:40,814 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-08 16:46:51,000 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-08 16:46:51,001 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-08 16:46:51,030 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-08 16:46:51,740 - loginView.py[line:35] - INFO - ======login_action======
-2019-05-08 16:46:51,741 - loginView.py[line:36] - INFO - username is:bryce123
-2019-05-08 16:46:57,204 - loginView.py[line:39] - INFO - password is: 74505208vv
-2019-05-08 16:47:02,917 - loginView.py[line:42] - INFO - click loginBtn
-2019-05-08 16:47:03,628 - loginView.py[line:44] - INFO - login finished
-2019-05-08 16:47:03,629 - loginView.py[line:59] - INFO - ======check_login_status======
-2019-05-08 16:47:03,631 - common_fun.py[line:49] - INFO - ======check market_ad======
-2019-05-08 16:47:14,189 - common_fun.py[line:53] - INFO - ======no market_ad======
-2019-05-08 16:47:14,191 - loginView.py[line:48] - INFO - ======check account_alert======
-2019-05-08 16:47:25,177 - loginView.py[line:52] - INFO - ======no markeaccount_alertt_ad======
-2019-05-08 16:47:26,009 - loginView.py[line:71] - INFO - login success!
-2019-05-08 16:47:26,010 - loginView.py[line:77] - INFO - ======logout_action======
-2019-05-08 16:47:28,363 - myunit.py[line:18] - INFO - ======关闭APP======
-2019-05-22 11:48:14,498 - run_test.py[line:33] - INFO - 开始跑测试用例
-2019-05-22 11:48:14,501 - myunit.py[line:14] - INFO - ======启动APP======
-2019-05-22 11:48:14,530 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 11:48:26,766 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 11:48:26,768 - test_login.py[line:28] - INFO - ======测试密码错误登录======
-2019-05-22 11:48:26,769 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 11:48:26,773 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-22 11:48:36,912 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-22 11:48:36,913 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-22 11:48:36,929 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-22 11:48:37,237 - loginView.py[line:35] - INFO - ======login_action======
-2019-05-22 11:48:37,238 - loginView.py[line:36] - INFO - username is:1
-2019-05-22 11:48:42,600 - loginView.py[line:39] - INFO - password is: 2
-2019-05-22 11:48:47,808 - loginView.py[line:42] - INFO - click loginBtn
-2019-05-22 11:48:48,490 - loginView.py[line:44] - INFO - login finished
-2019-05-22 11:48:48,492 - loginView.py[line:59] - INFO - ======check_login_status======
-2019-05-22 11:48:48,493 - common_fun.py[line:49] - INFO - ======check market_ad======
-2019-05-22 11:48:58,560 - common_fun.py[line:53] - INFO - ======no market_ad======
-2019-05-22 11:48:58,561 - loginView.py[line:48] - INFO - ======check account_alert======
-2019-05-22 11:49:08,636 - loginView.py[line:52] - INFO - ======no markeaccount_alertt_ad======
-2019-05-22 11:49:18,697 - loginView.py[line:67] - ERROR - login Fail!
-2019-05-22 11:49:18,698 - common_fun.py[line:83] - INFO - get login fail screenshot
-2019-05-22 11:49:19,022 - myunit.py[line:18] - INFO - ======关闭APP======
-2019-05-22 11:49:29,687 - myunit.py[line:14] - INFO - ======启动APP======
-2019-05-22 11:49:29,714 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 11:49:38,858 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 11:49:38,859 - test_login.py[line:20] - INFO - ======测试正常登录======
-2019-05-22 11:49:38,860 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 11:49:38,862 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-22 11:49:49,150 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-22 11:49:49,151 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-22 11:49:49,174 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-22 11:49:49,857 - loginView.py[line:35] - INFO - ======login_action======
-2019-05-22 11:49:49,859 - loginView.py[line:36] - INFO - username is:bryce123
-2019-05-22 11:49:55,179 - loginView.py[line:39] - INFO - password is: 74505208vv
-2019-05-22 11:50:00,331 - loginView.py[line:42] - INFO - click loginBtn
-2019-05-22 11:50:01,053 - loginView.py[line:44] - INFO - login finished
-2019-05-22 11:50:01,054 - loginView.py[line:59] - INFO - ======check_login_status======
-2019-05-22 11:50:01,055 - common_fun.py[line:49] - INFO - ======check market_ad======
-2019-05-22 11:50:11,107 - common_fun.py[line:53] - INFO - ======no market_ad======
-2019-05-22 11:50:11,109 - loginView.py[line:48] - INFO - ======check account_alert======
-2019-05-22 11:50:21,456 - loginView.py[line:52] - INFO - ======no markeaccount_alertt_ad======
-2019-05-22 11:50:31,818 - loginView.py[line:67] - ERROR - login Fail!
-2019-05-22 11:50:31,819 - common_fun.py[line:83] - INFO - get login fail screenshot
-2019-05-22 11:50:33,191 - myunit.py[line:18] - INFO - ======关闭APP======
-2019-05-22 14:37:49,337 - run_test.py[line:33] - INFO - 开始跑测试用例
-2019-05-22 14:37:49,339 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 14:37:49,370 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 15:13:03,874 - run_test.py[line:33] - INFO - 开始跑测试用例
-2019-05-22 15:13:03,876 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 15:13:03,907 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 15:13:11,978 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 15:13:11,979 - test_login.py[line:28] - INFO - ======测试密码错误登录======
-2019-05-22 15:13:11,981 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 15:13:11,985 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-22 15:13:22,138 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-22 15:13:22,138 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-22 15:13:22,163 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-22 15:13:24,368 - loginView.py[line:35] - INFO - ======login_action======
-2019-05-22 15:13:24,370 - loginView.py[line:36] - INFO - username is:1111
-2019-05-22 15:13:29,787 - loginView.py[line:39] - INFO - password is: 222
-2019-05-22 15:13:35,008 - loginView.py[line:42] - INFO - click loginBtn
-2019-05-22 15:13:35,681 - loginView.py[line:44] - INFO - login finished
-2019-05-22 15:13:35,683 - loginView.py[line:59] - INFO - ======check_login_status======
-2019-05-22 15:13:35,684 - common_fun.py[line:49] - INFO - ======check market_ad======
-2019-05-22 15:13:45,734 - common_fun.py[line:53] - INFO - ======no market_ad======
-2019-05-22 15:13:45,736 - loginView.py[line:48] - INFO - ======check account_alert======
-2019-05-22 18:20:19,725 - desired_caps.py[line:49] - INFO - ------开始启动APP------
-2019-05-22 18:20:54,669 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 18:21:36,707 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 18:22:53,444 - run.py[line:33] - INFO - 开始跑测试用例
-2019-05-22 18:22:53,446 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 18:22:53,456 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 18:23:00,906 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 18:23:00,907 - test_login.py[line:28] - INFO - ======测试密码错误登录======
-2019-05-22 18:23:00,907 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 18:23:00,907 - myunit.py[line:18] - INFO - ======准备关闭APP======
-2019-05-22 18:23:11,599 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 18:23:11,605 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 18:23:20,306 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 18:23:20,307 - test_login.py[line:20] - INFO - ======测试正常登录======
-2019-05-22 18:23:20,307 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 18:23:20,307 - myunit.py[line:18] - INFO - ======准备关闭APP======
-2019-05-22 18:23:31,492 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 18:23:31,499 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 18:23:40,375 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 18:23:40,376 - test_register.py[line:31] - INFO - ======测试异常注册 密码为空======
-2019-05-22 18:23:40,376 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-22 18:23:50,649 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-22 18:23:50,649 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-22 18:23:50,681 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-22 18:23:51,617 - registerView.py[line:49] - INFO - ======register_action======
-2019-05-22 18:23:53,700 - registerView.py[line:53] - INFO - ======set userheader======
-2019-05-22 18:23:55,889 - registerView.py[line:58] - INFO - register_username is brycelwx63705
-2019-05-22 18:24:01,411 - registerView.py[line:61] - INFO - register_password is 
-2019-05-22 18:24:06,579 - registerView.py[line:64] - INFO - register_email is jackbryce49112@163.com
-2019-05-22 18:24:12,110 - registerView.py[line:71] - INFO - ======add_register_info======
-2019-05-22 18:24:12,111 - registerView.py[line:73] - INFO - ======select subject======
-2019-05-22 18:24:20,200 - run.py[line:33] - INFO - 开始跑测试用例
-2019-05-22 18:24:20,201 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 18:24:20,207 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 18:24:29,064 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 18:24:29,065 - test_login.py[line:28] - INFO - ======测试密码错误登录======
-2019-05-22 18:24:29,065 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 18:24:29,078 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-22 18:24:39,374 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-22 18:24:39,374 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-22 18:24:39,386 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-22 18:24:39,644 - loginView.py[line:35] - INFO - ======login_action======
-2019-05-22 18:24:39,644 - loginView.py[line:36] - INFO - username is:1111
-2019-05-22 18:24:44,900 - loginView.py[line:39] - INFO - password is: 222
-2019-05-22 18:24:50,520 - loginView.py[line:42] - INFO - click loginBtn
-2019-05-22 18:24:51,242 - loginView.py[line:44] - INFO - login finished
-2019-05-22 18:24:51,242 - loginView.py[line:59] - INFO - ======check_login_status======
-2019-05-22 18:24:51,243 - common_fun.py[line:49] - INFO - ======check market_ad======
-2019-05-22 18:25:01,453 - common_fun.py[line:53] - INFO - ======no market_ad======
-2019-05-22 18:25:01,453 - loginView.py[line:48] - INFO - ======check account_alert======
-2019-05-22 18:25:11,510 - loginView.py[line:52] - INFO - ======no markeaccount_alertt_ad======
-2019-05-22 18:25:21,591 - loginView.py[line:67] - ERROR - login Fail!
-2019-05-22 18:25:21,592 - common_fun.py[line:83] - INFO - get login fail screenshot
-2019-05-22 18:25:21,919 - myunit.py[line:18] - INFO - ======准备关闭APP======
-2019-05-22 18:25:32,585 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 18:25:32,592 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 18:25:41,373 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 18:25:41,373 - test_login.py[line:20] - INFO - ======测试正常登录======
-2019-05-22 18:25:41,373 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 18:25:41,374 - common_fun.py[line:27] - INFO - ======check cancelBtn======
-2019-05-22 18:25:51,650 - common_fun.py[line:31] - INFO - ======no cancelBtn======
-2019-05-22 18:25:51,650 - common_fun.py[line:38] - INFO - ======check skipBtn======
-2019-05-22 18:25:51,666 - common_fun.py[line:44] - INFO - ======close skipBtn======
-2019-05-22 18:25:52,499 - loginView.py[line:35] - INFO - ======login_action======
-2019-05-22 18:25:52,499 - loginView.py[line:36] - INFO - username is:bryce123
-2019-05-22 18:25:57,720 - loginView.py[line:39] - INFO - password is: 74505208vv
-2019-05-22 18:26:02,839 - loginView.py[line:42] - INFO - click loginBtn
-2019-05-22 18:26:03,473 - loginView.py[line:44] - INFO - login finished
-2019-05-22 18:26:03,474 - loginView.py[line:59] - INFO - ======check_login_status======
-2019-05-22 18:26:03,474 - common_fun.py[line:49] - INFO - ======check market_ad======
-2019-05-22 18:26:13,746 - common_fun.py[line:53] - INFO - ======no market_ad======
-2019-05-22 18:26:13,747 - loginView.py[line:48] - INFO - ======check account_alert======
-2019-05-22 18:26:13,757 - loginView.py[line:54] - INFO - ======close tip_commit======
-2019-05-22 18:26:27,255 - loginView.py[line:67] - ERROR - login Fail!
-2019-05-22 18:26:27,256 - common_fun.py[line:83] - INFO - get login fail screenshot
-2019-05-22 18:26:28,101 - myunit.py[line:18] - INFO - ======准备关闭APP======
-2019-05-22 18:29:52,889 - run.py[line:33] - INFO - 开始跑测试用例
-2019-05-22 18:29:52,891 - myunit.py[line:14] - INFO - ======准备启动APP======
-2019-05-22 18:29:52,894 - desired_caps.py[line:46] - INFO - ------开始启动APP------
-2019-05-22 18:30:00,217 - desired_caps.py[line:49] - INFO - ------启动APP成功------
-2019-05-22 18:30:00,218 - test_login.py[line:28] - INFO - ======测试密码错误登录======
-2019-05-22 18:30:00,219 - common_fun.py[line:88] - INFO - ======get_csv_data=======
-2019-05-22 18:30:00,220 - common_fun.py[line:27] - INFO - ======check cancelBtn======
+2019-05-23 16:22:22,463 - run.py[line:33] - INFO - 开始跑测试用例
+2019-05-23 16:22:22,513 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-23 16:22:22,553 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-23 16:37:33,642 - run.py[line:33] - INFO - 开始跑测试用例
+2019-05-23 16:37:33,643 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-23 16:37:33,646 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-26 09:43:39,134 - run.py[line:33] - INFO - 开始跑测试用例
+2019-05-26 09:43:39,134 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-26 09:43:39,138 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-26 09:44:10,370 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-26 09:44:10,373 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-26 09:45:04,995 - run.py[line:33] - INFO - 开始跑测试用例
+2019-05-26 09:45:04,995 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-26 09:45:04,998 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-26 09:45:20,534 - desired_caps.py[line:49] - INFO - ------启动APP成功------
+2019-05-26 09:45:20,534 - test_login.py[line:28] - INFO - ======测试密码错误登录======
+2019-05-26 09:45:20,534 - common_fun.py[line:88] - INFO - ======get_csv_data=======
+2019-05-26 09:45:20,563 - common_fun.py[line:27] - INFO - ======check cancelBtn======
+2019-05-26 09:45:30,583 - common_fun.py[line:31] - INFO - ======no cancelBtn======
+2019-05-26 09:45:30,583 - common_fun.py[line:38] - INFO - ======check skipBtn======
+2019-05-26 09:45:30,610 - common_fun.py[line:44] - INFO - ======close skipBtn======
+2019-05-26 09:45:30,947 - loginView.py[line:35] - INFO - ======login_action======
+2019-05-26 09:45:30,947 - loginView.py[line:36] - INFO - username is:1111
+2019-05-26 09:45:36,501 - loginView.py[line:39] - INFO - password is: 222
+2019-05-26 09:45:41,793 - loginView.py[line:42] - INFO - click loginBtn
+2019-05-26 09:45:42,590 - loginView.py[line:44] - INFO - login finished
+2019-05-26 09:45:42,591 - loginView.py[line:59] - INFO - ======check_login_status======
+2019-05-26 09:45:42,591 - common_fun.py[line:49] - INFO - ======check market_ad======
+2019-05-26 09:45:53,074 - common_fun.py[line:53] - INFO - ======no market_ad======
+2019-05-26 09:45:53,075 - loginView.py[line:48] - INFO - ======check account_alert======
+2019-05-26 09:46:03,429 - loginView.py[line:52] - INFO - ======no markeaccount_alertt_ad======
+2019-05-26 09:46:13,866 - loginView.py[line:67] - ERROR - login Fail!
+2019-05-26 09:46:13,866 - common_fun.py[line:83] - INFO - get login fail screenshot
+2019-05-26 09:46:14,530 - myunit.py[line:18] - INFO - ======准备关闭APP======
+2019-05-26 09:46:25,464 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-26 09:46:25,467 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-26 09:46:39,638 - desired_caps.py[line:49] - INFO - ------启动APP成功------
+2019-05-26 09:46:39,638 - test_login.py[line:20] - INFO - ======测试正常登录======
+2019-05-26 09:46:39,638 - common_fun.py[line:88] - INFO - ======get_csv_data=======
+2019-05-26 09:46:39,639 - common_fun.py[line:27] - INFO - ======check cancelBtn======
+2019-05-26 09:46:49,669 - common_fun.py[line:31] - INFO - ======no cancelBtn======
+2019-05-26 09:46:49,669 - common_fun.py[line:38] - INFO - ======check skipBtn======
+2019-05-26 09:46:49,686 - common_fun.py[line:44] - INFO - ======close skipBtn======
+2019-05-26 09:46:49,977 - loginView.py[line:35] - INFO - ======login_action======
+2019-05-26 09:46:49,977 - loginView.py[line:36] - INFO - username is:bryce123
+2019-05-26 09:46:55,220 - loginView.py[line:39] - INFO - password is: 74505208vv
+2019-05-26 09:47:00,475 - loginView.py[line:42] - INFO - click loginBtn
+2019-05-26 09:47:01,167 - loginView.py[line:44] - INFO - login finished
+2019-05-26 09:47:01,167 - loginView.py[line:59] - INFO - ======check_login_status======
+2019-05-26 09:47:01,167 - common_fun.py[line:49] - INFO - ======check market_ad======
+2019-05-26 09:47:11,387 - common_fun.py[line:53] - INFO - ======no market_ad======
+2019-05-26 09:47:11,387 - loginView.py[line:48] - INFO - ======check account_alert======
+2019-05-26 09:47:21,448 - loginView.py[line:52] - INFO - ======no markeaccount_alertt_ad======
+2019-05-26 09:47:31,555 - loginView.py[line:67] - ERROR - login Fail!
+2019-05-26 09:47:31,555 - common_fun.py[line:83] - INFO - get login fail screenshot
+2019-05-26 09:47:32,292 - myunit.py[line:18] - INFO - ======准备关闭APP======
+2019-05-26 09:47:43,295 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-26 09:47:43,297 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-26 09:47:57,624 - desired_caps.py[line:49] - INFO - ------启动APP成功------
+2019-05-26 09:47:57,624 - test_register.py[line:31] - INFO - ======测试异常注册 密码为空======
+2019-05-26 09:47:57,624 - common_fun.py[line:27] - INFO - ======check cancelBtn======
+2019-05-26 09:48:08,146 - common_fun.py[line:31] - INFO - ======no cancelBtn======
+2019-05-26 09:48:08,146 - common_fun.py[line:38] - INFO - ======check skipBtn======
+2019-05-26 09:48:08,160 - common_fun.py[line:44] - INFO - ======close skipBtn======
+2019-05-26 09:48:08,465 - registerView.py[line:49] - INFO - ======register_action======
+2019-05-26 09:48:11,130 - registerView.py[line:53] - INFO - ======set userheader======
+2019-05-26 09:48:13,240 - registerView.py[line:58] - INFO - register_username is brycelwx27469
+2019-05-26 09:48:18,818 - registerView.py[line:61] - INFO - register_password is 
+2019-05-26 09:48:24,000 - registerView.py[line:64] - INFO - register_email is jackbryce37209@163.com
+2019-05-26 09:48:30,055 - registerView.py[line:71] - INFO - ======add_register_info======
+2019-05-26 09:48:30,055 - registerView.py[line:73] - INFO - ======select subject======
+2019-05-26 09:48:40,544 - myunit.py[line:18] - INFO - ======准备关闭APP======
+2019-05-26 09:48:51,787 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-26 09:48:51,789 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-26 09:49:06,045 - desired_caps.py[line:49] - INFO - ------启动APP成功------
+2019-05-26 09:49:06,045 - test_register.py[line:19] - INFO - ======测试正常注册======
+2019-05-26 09:49:06,045 - common_fun.py[line:27] - INFO - ======check cancelBtn======
+2019-05-26 09:49:16,537 - common_fun.py[line:31] - INFO - ======no cancelBtn======
+2019-05-26 09:49:16,537 - common_fun.py[line:38] - INFO - ======check skipBtn======
+2019-05-26 09:49:16,552 - common_fun.py[line:44] - INFO - ======close skipBtn======
+2019-05-26 09:49:16,877 - registerView.py[line:49] - INFO - ======register_action======
+2019-05-26 09:49:19,006 - registerView.py[line:53] - INFO - ======set userheader======
+2019-05-26 09:49:21,496 - registerView.py[line:58] - INFO - register_username is brycelwx48538
+2019-05-26 09:49:27,110 - registerView.py[line:61] - INFO - register_password is 74505208vv
+2019-05-26 09:49:32,922 - registerView.py[line:64] - INFO - register_email is jackbryce46072@163.com
+2019-05-26 09:49:38,916 - registerView.py[line:71] - INFO - ======add_register_info======
+2019-05-26 09:49:38,916 - registerView.py[line:73] - INFO - ======select subject======
+2019-05-26 09:49:45,911 - registerView.py[line:78] - INFO - ======select school======
+2019-05-26 09:49:55,357 - registerView.py[line:94] - INFO - ======check_register_status======
+2019-05-26 09:49:55,357 - common_fun.py[line:49] - INFO - ======check market_ad======
+2019-05-26 09:50:05,649 - common_fun.py[line:53] - INFO - ======no market_ad======
+2019-05-26 09:50:15,711 - registerView.py[line:101] - ERROR - register fail!
+2019-05-26 09:50:15,711 - common_fun.py[line:83] - INFO - get register fail screenshot
+2019-05-26 09:50:16,469 - myunit.py[line:18] - INFO - ======准备关闭APP======
+2019-05-27 10:22:05,210 - run.py[line:33] - INFO - 开始跑测试用例
+2019-05-27 10:22:05,234 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-27 10:22:05,237 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-27 10:22:53,014 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-27 10:22:53,022 - desired_caps.py[line:46] - INFO - ------开始启动APP------
+2019-05-27 10:23:23,559 - myunit.py[line:14] - INFO - ======准备启动APP======
+2019-05-27 10:23:23,565 - desired_caps.py[line:46] - INFO - ------开始启动APP------

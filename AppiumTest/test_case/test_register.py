@@ -20,7 +20,7 @@ class TestRegister(startEnd):
         rg = RegisterView(self.driver)
 
         username = "bryce" + 'lwx' + str(random.randint(10000, 90000))
-        password = '74505208vv'
+        password = '74505208Xvv'
         email = 'jackbryce' + str(random.randint(10000, 90000)) + '@163.com'
 
         rg.register_action(username, password, email)

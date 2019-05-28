@@ -1,25 +1,4 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
 
-import re
-import Common
-import webbrowser
-import time
-
-# 报告生成时间
-now_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-
-
-# 生成本地html报告文件
-def CreateReportHtml(data, testCaseFile):
-    # 提取excel文件名中的数字
-    testCaseFilenum = re.findall("\\d", testCaseFile)
-    testCaseFilenum = testCaseFilenum[0]+testCaseFilenum[1]+testCaseFilenum[2]
-    # 定义生成的html
-    GEN_HTML = Common.gReportName+"testCase" + str(testCaseFilenum) + ".html"
-    f = open(GEN_HTML, 'wb+')
-
-    html = """
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -100,9 +79,7 @@ def CreateReportHtml(data, testCaseFile):
                         <div style="float:left;">执行人：
                             <span id="recipients">null</span></div>
                         <div style="float:right;width:300px;">执行日期：
-                            <span id="data_send">"""
-    html += str(now_time)
-    html += """            </span></div>
+                            <span id="data_send">2019-05-28 18:10:26            </span></div>
                     </div>
                 </div>
                 <div class="heading_">
@@ -136,88 +113,10 @@ def CreateReportHtml(data, testCaseFile):
                     <div class="example_sub">result</div>
                     <div class="example_sub">分析结果</div>
                     <!-- 返回参数值 -->
-                    """
-    # 动态生成部分写在for循环里
-    for test in data:
-        if test[7] == "result返回完整" or test[7] == "数据返回成功" or test[7] == "返回的result是一个列表":
-            if "异常" in test[1] and test[4] == 'true':
-                html = result_error(html, test)
-                continue
-            else:
-                html = result_right(html, test)
-        else:
-            if "异常" in test[1] and test[4] != 'true':
-                html = result_right(html, test)
-                continue
-            else:
-                html = result_error(html, test)
-    html += """
+                    <div class="example_Con2">    <div class="example_con" onmouseover="hover(this);">1</div></div><div class="example_Con2">    <div class="example_con" onmouseover="hover(this);">获取注册验证码</div></div><div class="example_Con2">    <div id="copy" class="example_con" onclick="execClick()" oncopy="execCopy(event,this)">/system/get_sms_code?</div></div><div class="example_Con2">    <div class="example_con" onmouseover="hover(this);">200</div></div><div class="example_Con2">    <div class="example_con" onmouseover="hover(this);">False</div></div><div class="example_Con2">    <div class="example_con" onmouseover="hover(this);">This account has already been registered!</div></div><div class="example_Con2">    <div class="example_con" onmouseover="hover(this);" onclick="execClick()" oncopy="execCopy(event,this)"></div></div><div class="example_Con2">    <div class="example_con" onmouseover="hover(this);">code:False desc:This account has already been registered!</div></div>
                 </div>
             </section>
         </article>
     </body>
     </html>
-        """
-    f.write(html.encode('utf-8'))
-    f.close()
-    webbrowser.open(GEN_HTML, new=0)
-
-
-# 定义一个方法，当返回的数据与期望相同时，给表格加绿色背景显示
-def result_right(html, test):
-    html += '<div class="example_Con">'
-    html += '   <div class="example_con" onmouseover="hover(this);">'+str(test[0])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[1])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con">'
-    html += '    <div id="copy" class="example_con" onclick="execClick()" oncopy="execCopy(event,this)">'+str(test[2])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[3])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[4])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[5])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con">'
-    html += '    <div class="example_con" onmouseover="hover(this);" onclick="execClick()" oncopy="execCopy(event,this)">'+str(test[6])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[7])+'</div>'
-    html += '</div>'
-
-    return html
-
-
-# 定义一个方法，当返回的数据与期望不符时，给表格加红色背景显示
-def result_error(html, test):
-    html += '<div class="example_Con2">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[0])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con2">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[1])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con2">'
-    html += '    <div id="copy" class="example_con" onclick="execClick()" oncopy="execCopy(event,this)">'+str(test[2])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con2">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[3])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con2">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[4])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con2">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[5])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con2">'
-    html += '    <div class="example_con" onmouseover="hover(this);" onclick="execClick()" oncopy="execCopy(event,this)">'+str(test[6])+'</div>'
-    html += '</div>'
-    html += '<div class="example_Con2">'
-    html += '    <div class="example_con" onmouseover="hover(this);">'+str(test[7])+'</div>'
-    html += '</div>'
-
-    return html
+        

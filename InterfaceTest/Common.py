@@ -86,3 +86,14 @@ def hash1Encode(codeStr):
     hashobj = hashlib.sha1()
     hashobj.update(codeStr.encode('utf-8'))
     return hashobj.hexdigest()
+
+
+# parameters参数化
+def change_parameters(data):
+    data = data.split(',')
+    a = ""
+    for i in range(len(data)):
+        a += data[i] + '&'
+        if i == len(data)-1:
+            continue
+    return a

@@ -12,7 +12,7 @@ import unittest
 from BSTestRunner import BSTestRunner
 
 # # 指定项目文件的路径
-path = 'E:\\project\\Test\\AppiumTest\\'
+path = 'E:\\project\\study\\AppiumTest\\'
 sys.path.append(path)
 
 # 指定测试用例和测试报告的路径

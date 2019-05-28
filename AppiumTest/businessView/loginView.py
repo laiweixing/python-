@@ -58,6 +58,7 @@ class LoginView(Common):
     def check_login_status(self):
         logging.info("======check_login_status======")
         self.check_market_ad()
+        self.check_skipBtn()
         self.check_account_alert()
 
         try:
