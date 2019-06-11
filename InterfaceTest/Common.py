@@ -93,7 +93,17 @@ def change_parameters(data):
     data = data.split(',')
     a = ""
     for i in range(len(data)):
-        a += data[i] + '&'
+        a += data[i]
         if i == len(data)-1:
-            continue
+            break
+        a = a + '&'
     return a
+
+
+# 预期返回参数data中有多层嵌套时的数据处理
+def change_check_data(data):
+    n = []
+    for i in range(0, len(data)):
+        b = data[i].split('~')
+        n.append(b)
+    return n
