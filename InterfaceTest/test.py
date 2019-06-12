@@ -29,13 +29,41 @@
 # b = {'test1': '这是一个测试1', 'test2': '这是一个测试2'}
 # print(b.keys())
 # if isinstance(b, dict):
-#     for i in a.keys():
-#         print(i+'这是i的')
-#         for j in b.keys():
-#             print(j+'这是j的')
-#             if i == j:
-#                 a[i] = b[j]
+#     for j in a.keys():
+#         if j in b.keys():
+#                 a[j] = b[j]
 #     print(a)
 # else:
 #     print('b的数据类型为' + str(type(b)))
 
+
+# import re
+# a = 'b=1,c=2'
+
+
+# def str_change_dic(data):
+#     data = data.split(',')
+#     c = {}
+#     for i in data:
+#         m = re.findall(r"(.+?)=", i)
+#         n = re.findall(r"=(.+?)", i)
+#         f = dict(zip(m, n))
+#         c.update(f)
+#     return c
+
+# a = {'a': 1, 'b': 2}
+
+
+# def dic_change_str(data):
+#     d = ''
+#     n = 1
+#     for i in a:
+#         if n < len(a):
+#             d += str(i) + '=' + str(a[i]) + ','
+#             n = n + 1
+#         else:
+#             d += str(i) + '=' + str(a[i])
+#     return d
+# a = 'abcdefg'
+# if 'a' in a:
+#     print("OK")

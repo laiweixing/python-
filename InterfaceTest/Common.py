@@ -90,20 +90,53 @@ def hash1Encode(codeStr):
 
 # parameters参数化
 def change_parameters(data):
+    try:
+        data = data.split(',')
+        a = ""
+        for i in range(len(data)):
+            a += data[i]
+            if i == len(data)-1:
+                break
+            a = a + '&'
+    except Exception as e:
+        print(e + '参数化失败了')
+    else:
+        return a
+
+
+# # 预期返回参数data中有多层嵌套时的数据处理
+# def change_check_data(data):
+#     n = []
+#     for i in range(0, len(data)):
+#         b = data[i].split('~')
+#         n.append(b)
+#     return n
+
+
+# 字符串转换为字典（类似'a=1,b=2'）
+def str_change_dic(data):
     data = data.split(',')
-    a = ""
-    for i in range(len(data)):
-        a += data[i]
-        if i == len(data)-1:
-            break
-        a = a + '&'
-    return a
+    c = {}
+    for i in data:
+        m = re.findall(r"(.*)=", i)
+        n = re.findall(r"=(.*)", i)
+        f = dict(zip(m, n))
+        c.update(f)
+    return c
 
 
-# 预期返回参数data中有多层嵌套时的数据处理
-def change_check_data(data):
-    n = []
-    for i in range(0, len(data)):
-        b = data[i].split('~')
-        n.append(b)
-    return n
+# 字典转换为字符串（类似'a=1,b=2'）
+def dic_change_str(data):
+    d = ''
+    n = 1
+    for i in data:
+        if n < len(data):
+            d += str(i) + '=' + str(data[i]) + ','
+            n = n + 1
+        else:
+            d += str(i) + '=' + str(data[i])
+    return d
+
+
+if __name__ == '__main__':
+    print("OK")
